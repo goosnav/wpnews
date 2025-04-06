@@ -21,11 +21,11 @@ body {
 /* Y2K Theme Styles */
 @layer components {
   .glass-panel {
-    @apply bg-glass backdrop-blur-glass rounded-lg shadow-glass;
+    @apply bg-white/70 backdrop-blur-sm rounded-lg shadow-lg;
   }
 
   .xp-button {
-    @apply bg-xp-blue text-white px-4 py-2 rounded-lg shadow-xp hover:bg-xp-light-blue transition-colors duration-300;
+    @apply bg-xp-blue text-white px-4 py-2 rounded-lg shadow-md hover:bg-xp-light-blue transition-colors duration-300;
   }
 
   .xp-input {
@@ -33,7 +33,7 @@ body {
   }
 
   .xp-card {
-    @apply bg-white rounded-lg p-6 shadow-xp hover:shadow-lg transition-shadow duration-300 border border-xp-gray;
+    @apply bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow duration-300 border border-xp-gray;
   }
 }
 
