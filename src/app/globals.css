@@ -20,10 +20,6 @@ body {
 
 /* Y2K Theme Styles */
 @layer components {
-  .glass-panel {
-    @apply bg-white/70 backdrop-blur-sm rounded-lg shadow-lg;
-  }
-
   .xp-button {
     @apply bg-xp-blue text-white px-4 py-2 rounded-lg shadow-md hover:bg-xp-light-blue transition-colors duration-300;
   }
