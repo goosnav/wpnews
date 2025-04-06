@@ -36,7 +36,7 @@ export function NewsletterSignup() {
   }
 
   return (
-    <div className="bg-white/70 backdrop-blur-sm rounded-lg p-6 shadow-lg">
+    <div className="bg-glass backdrop-blur-sm rounded-lg p-6 shadow-lg">
       <h3 className="text-xl font-semibold text-xp-blue mb-4">
         Subscribe to Our Newsletter
       </h3>
