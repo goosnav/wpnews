@@ -28,14 +28,14 @@ export default function MainLayout({ children }: MainLayoutProps) {
       <main className="container mx-auto px-4 pb-16">
         {/* Glass Panel Header */}
         <header className="mt-8 mb-12">
-          <div className="bg-glass backdrop-blur-glass rounded-lg p-6 shadow-glass">
+          <div className="glass-panel p-6">
             <h1 className="text-4xl font-bold text-xp-blue mb-2">WPNews.net</h1>
             <p className="text-xp-darker-gray">Your AI-Powered News Source</p>
           </div>
         </header>
 
         {/* Content Area */}
-        <div className="bg-glass backdrop-blur-glass rounded-lg p-6 shadow-glass min-h-[calc(100vh-12rem)]">
+        <div className="glass-panel p-6 min-h-[calc(100vh-12rem)]">
           {children}
         </div>
       </main>
